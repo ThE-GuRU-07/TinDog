@@ -1,0 +1,175 @@
+﻿body{
+	font-family:'Ubuntu' ,sans-serif;
+}
+
+/*header*/
+
+.header{
+	background-color:#000;
+	padding:10px 100px;
+	color:white;
+}
+#header-brand{
+	font-size:2rem;
+	font-weight:bold;
+}
+#header-top-bar{
+	font-size:1.2rem;
+	font-weight:bold;
+}
+.nav-item{
+	padding:0 20px;
+	font-family:'Montserrat-light' ,sans-serif;
+}
+
+/*title*/
+
+#title{
+	background-color:#ff4c68;
+	position:relative;
+	z-index:-1;
+}
+.container-fluid{
+	padding:3% 15%;
+}
+.title-h1{
+	font-family:'Montserrat', sans-serif;
+	font-size:3.5rem;
+	line-height:1.5;
+	color:white;
+	margin-bottom:50px;
+	margin-top:100px;
+}
+.title-btn{
+	margin-top:25px;
+}
+#iphone-div{
+	padding-left:50px;
+}
+#iphone-img{
+	position:relative;
+	width:70%;
+	height:90%;
+	transform:rotate(25deg);
+	top:50px;
+}
+@media(max-width:1024px){
+	#iphone-img{
+		position:static;
+		transform:rotate(0);
+		margin-top:100px;
+	}
+	#title{
+		text-align:center;
+	}
+	#press-img{
+		width:50px;
+	}
+}
+
+#title-button-1{
+	margin-right:20px;
+}
+
+
+/*features*/
+
+.features-img{
+	width:100px;
+	height:100px;
+	color:#ff4c68;
+	margin-bottom:0px;
+	margin-top:150px;
+}
+#features{
+	background-color:white;
+	position:relative;
+	bottom:120px;
+}
+.features-p{
+	font-size:1.2rem;
+}
+.features-img:hover{
+	color:red;
+}
+.features-row{
+}
+
+/*testimonials*/
+
+.testimonials-1{
+	text-align:center;
+	font-size:1.5rem;
+	color:white;
+	background-color:#ff4c68;
+}
+.testimonial-img{
+
+	width:15%;
+	border-radius:100%;
+	padding:40px 0px;
+}
+.testimonials-h2{
+	font-size:3rem;
+}
+.carousel-item{
+	padding:6% 15%;
+
+}
+/*press*/
+
+.press-div-1{
+	
+	background-color:#ff4c68;
+	padding:0px 150px 60px 150px;
+	text-align:center;
+
+}
+#press-img{
+	padding:10px;
+	width:90%;
+}
+
+/*pricing */
+
+#pricing{
+	text-align:center;
+	padding:5% 10%;
+}
+.pricing-p{
+	margin-bottom:60px;
+	font-size:1.3rem;
+}
+.card-title{
+	font-family:'Montserrat-light', sans-serif;
+	font-weight:bold;
+	font-size:2.75rem;
+	margin-bottom:20px;
+}
+/*ctm*/
+
+#ctm{
+	text-align:center;
+	background-color:#ff4c68;
+	padding:5% 15%;
+
+}
+.ctm-h3{
+	font-family:'Montserrat', sans-serif;
+	font-size:3rem;
+	font-weight:bold;
+	color:white;
+
+}
+.ctm-btn{
+	margin:5% 3% 3%;
+}
+/*footer*/
+
+#footer{
+	text-align:center;
+	padding:2% 15%;
+}
+.footer-icon{
+	margin:0px 20px 20px;
+}
